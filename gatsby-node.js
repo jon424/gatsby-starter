@@ -11,7 +11,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       // Individual MDX node
       node,
       // Name of the field you are adding
-      name: 'slug',
+      name: 'fields',
       // Generated value based on filepath with "blog" prefix
       value: `/blog${value}`
     })
